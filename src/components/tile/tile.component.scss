@@ -1,0 +1,80 @@
+.empty_tile, .tilled_tile, .planted_tile, .harvest_tile {
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    width: 100px;
+
+
+    p {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+
+.empty_tile {
+    background: #828282;
+}
+
+.tilled_tile {
+    background: #f2994a;
+}
+
+.planted_tile {
+    background: #f2c94c;
+}
+
+.harvest_tile {
+    background: #219653;
+
+    p{
+        color: #fff;
+    }
+}
+
+#popover-basic {
+    z-index: 1 !important;
+}
+
+.popover_body {
+    display: flex !important;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px !important;
+}
+
+.popover_button {
+    font-size: 24px !important;
+    height: 40px !important;
+    line-height: 24px !important;
+    width: 140px !important;
+}
+
+.remove {
+    background: #4f4f4f !important;
+}
+
+.onion, .corn, .potato, .carrot {
+    height: 60px;
+    width: 70px;
+}
+
+.onion {
+    background: url('../../assets/onion.svg') center no-repeat;
+}
+
+.corn {
+    background: url('../../assets/corn.svg') center no-repeat;
+}
+
+.potato {
+    background: url('../../assets/potato.svg') center no-repeat;
+}
+
+.carrot {
+    background: url('../../assets/carrot.svg') center no-repeat;
+}

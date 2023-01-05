@@ -1,0 +1,46 @@
+nav {
+    background-color: #27ae60;
+    color: white;
+    font-size: 24px;
+    padding: 13px 22px;
+    width: 100vw;
+}
+main {
+    background: #6fcf97;
+    border-left: solid 24px #219653;
+    border-right: solid 24px #219653;
+    min-height: 100vh;
+    padding: 40px 0;
+    width: 100vw;
+
+    section {
+        display: grid;
+        grid-gap: 10px;
+        margin: 0 auto;
+        width: min-content;
+
+        #game_controls{
+            display: flex;
+            flex-direction: column;
+            grid-column: span 2;
+            grid-row: span 2;
+
+            p {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0 0 20px !important;
+            }
+    
+            #land_expand_btn {
+                background: #2d9cdb;
+                color: #fff;
+                font-size: 16px;
+                font-weight: bold;  
+                height: 60px;
+                line-height: 18px;
+                width: 210px;
+            }
+        }
+    }
+  
+}

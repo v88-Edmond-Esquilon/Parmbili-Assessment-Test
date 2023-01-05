@@ -1,0 +1,89 @@
+#select_plant_modal {
+    padding: 20px !important;
+    width: 343px;
+
+    #select_plant_body {
+        display: flex;
+        flex-direction: column;
+        height: 373px;
+        text-align: center;
+
+        #btn_close_modal {
+            background: url('../assets/close.svg') no-repeat center;
+            border: 0;
+            height: 10px;
+            left: 275px;
+            position: absolute;
+            width: 10px;
+        }
+
+        p {
+            color: #2f80ed;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 17px;
+        }
+
+        #plant_selection_form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 0 auto;
+
+            .crop_plant {
+                align-items: center;
+                background: #e0e0e0;
+                border-radius: 10px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+                justify-content: center;
+                width: 100px;
+
+                p {
+                    color: #333333;
+                    font-size: 12px;
+                    font-weight: 300;
+                    margin: 10px 0 0 0;
+                }
+
+                .onion, .potato, .carrot, .corn {
+                    margin: 0;
+                }
+
+                .onion {
+                    background: url('../assets/onion.svg') no-repeat center;
+                }
+
+                .carrot {
+                    background: url('../assets/carrot.svg') no-repeat center;
+                }
+
+                .potato {
+                    background: url('../assets/potato.svg') no-repeat center;
+                }
+
+                .corn {
+                    background: url('../assets/corn.svg') no-repeat center;
+                }
+            }
+
+            .active {
+                background: #f2c94c !important;
+            }
+
+            .modal_controls {
+                align-items: center;
+                display: flex;
+                font-size: 24px;
+                height: 40px;
+                justify-content: center;
+                width: 120px;
+            }
+        }
+
+   
+    }
+}
