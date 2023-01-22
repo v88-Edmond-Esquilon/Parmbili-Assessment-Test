@@ -4,28 +4,30 @@
     #remove_plant_modal_body {
         column-gap: 20px;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         height: 177px;
         justify-content: center;
-        padding: 20px 26px;
         text-align: center;
 
         h6{
             color: #eb5757;
             font-size: 20px;
             font-weight: bold;
+            width: 100%;
         }
 
         p{
             color: #333333;
             font-size: 16px;
             margin-bottom: 20px;
+            width: 100%;
         }
 
-        .modal_controls {
+        button {
             align-items: center;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             font-size: 24px;
             height: 40px;
             justify-content: center;

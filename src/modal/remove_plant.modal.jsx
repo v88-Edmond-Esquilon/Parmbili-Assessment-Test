@@ -35,6 +35,7 @@ export default class RemovePlant extends Component {
 				}
 				toggleModal();
 			}	
+			return item;
 		});
 	}
 
@@ -52,8 +53,8 @@ export default class RemovePlant extends Component {
 					<Modal.Body id='remove_plant_modal_body'>
 						<h6>Remove Plant</h6>
 						<p>Are you sure you want<br/>to remove this plant?</p>
-						<Button className='modal_controls' variant='danger' type='button' onClick={toggleModal}>Cancel</Button>
-						<Button className='modal_controls' variant='secondary' type='button' onClick={this.removePlant}>Remove</Button>
+						<Button variant='danger' type='button' onClick={toggleModal}>Cancel</Button>
+						<Button variant='secondary' type='button' onClick={this.removePlant}>Remove</Button>
 					</Modal.Body>
 				</Modal>
 			</React.Fragment>
